@@ -1,0 +1,21 @@
+{
+    "name": "php-decimal/globals",
+    "description": "Globals helpers for the decimal extension",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudi Theunissen",
+            "email": "rtheunissen@php.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "php-decimal/php-decimal": "^1.0.0"
+    },
+    "autoload": {
+        "files": [
+            "globals.php"
+        ]
+    }
+}

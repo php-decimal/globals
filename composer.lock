@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "82e03f72b6abe532ac3ab85f56c9ae53",
+    "packages": [
+        {
+            "name": "php-decimal/php-decimal",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-decimal/php-decimal.git",
+                "reference": "f96d44117f0cb0c2b43a2f4ff1bb6e917035961b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-decimal/php-decimal/zipball/f96d44117f0cb0c2b43a2f4ff1bb6e917035961b",
+                "reference": "f96d44117f0cb0c2b43a2f4ff1bb6e917035961b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-decimal": "^1.0",
+                "php": ">=7.0.0",
+                "php-decimal/stubs": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decimal\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rudi Theunissen",
+                    "email": "rtheunissen@php.net"
+                }
+            ],
+            "description": "Correctly-rounded arbitrary precision decimal floating point",
+            "keywords": [
+                "decimal",
+                "math",
+                "number",
+                "precision"
+            ],
+            "time": "2018-11-09T22:25:43+00:00"
+        },
+        {
+            "name": "php-decimal/stubs",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-decimal/stubs.git",
+                "reference": "168bb0d58bb398d7da739da0da99df2a9e1fc773"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-decimal/stubs/zipball/168bb0d58bb398d7da739da0da99df2a9e1fc773",
+                "reference": "168bb0d58bb398d7da739da0da99df2a9e1fc773",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Decimal\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rudi Theunissen",
+                    "email": "rtheunissen@php.net"
+                }
+            ],
+            "description": "IDE and static analysis helper for the decimal extension",
+            "keywords": [
+                "decimal",
+                "math",
+                "number",
+                "precision"
+            ],
+            "time": "2018-11-20T20:48:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": []
+}
